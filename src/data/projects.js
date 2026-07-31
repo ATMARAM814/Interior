@@ -1,0 +1,280 @@
+export const PORTFOLIO_PROJECTS = [
+  {
+    id: 1,
+    title: "The Skyview Penthouse",
+    category: "Residential Architecture",
+    location: "Upper West Side, NYC",
+    area: "4,800 sq.ft",
+    year: "2025",
+    image: "/images/luxury_penthouse_living_room_1785357702933.png",
+    accentColor: "#C5A059",
+    description: "A sweeping multi-level luxury residence featuring full-height architectural glass, custom dark oak timber paneling, and curated Italian marble furniture.",
+    highlights: ["Custom Italian Marble Coffee Table", "Floor-to-Ceiling Panoramic Glass", "Integrated Gold Strip Cove Lighting", "Smart Spatial Zoning"]
+  },
+  {
+    id: 2,
+    title: "Nero Waterfall Villa Kitchen",
+    category: "Bespoke Culinary Space",
+    location: "Bel Air, California",
+    area: "1,200 sq.ft",
+    year: "2025",
+    image: "/images/contemporary_minimalist_kitchen_1785357714785.png",
+    accentColor: "#C5A059",
+    description: "High-contrast culinary artistry with a monolithic Nero Marquina marble waterfall island and brushed champagne brass hardware.",
+    highlights: ["Nero Marquina Waterfall Marble", "Brushed Champagne Gold Hardware", "Concealed Motorized Cabinetry", "Atmospheric LED Floating Glow"]
+  },
+  {
+    id: 3,
+    title: "The Sovereign Master Suite",
+    category: "Luxury Bedroom",
+    location: "Mayfair, London",
+    area: "1,650 sq.ft",
+    year: "2024",
+    image: "/images/luxury_master_suite_1785357725159.png",
+    accentColor: "#C5A059",
+    description: "An oasis of quiet luxury with custom channel-upholstered velvet wall paneling, carved travertine stone, and bespoke silk drapery.",
+    highlights: ["Hand-Carved Travertine Accent Wall", "Bespoke Channel Velvet Headboard", "Integrated Concealed Sound System", "Custom Silk Linen Ensemble"]
+  },
+  {
+    id: 4,
+    title: "Grand Atrium Residence",
+    category: "Grand Villa Fitout",
+    location: "Dubai Hills Estate",
+    area: "8,500 sq.ft",
+    year: "2025",
+    image: "/images/finished_luxury_villa_1785357748931.png",
+    accentColor: "#C5A059",
+    description: "Double-height architectural grand hall featuring a bespoke sculptural brass chandelier, dual marble fireplaces, and indoor vertical living walls.",
+    highlights: ["Double-Height Architectural Ceiling", "Dual Bookmatched Marble Fireplaces", "Sculptural Custom Brass Chandelier", "Biophilic Vertical Plant Wall"]
+  },
+  {
+    id: 5,
+    title: "The Travertine Sanctuary Bath",
+    category: "Bespoke Spa Suite",
+    location: "Zurich, Switzerland",
+    area: "950 sq.ft",
+    year: "2025",
+    image: "/images/luxury_master_suite_1785357725159.png",
+    accentColor: "#C5A059",
+    description: "Monolithic travertine stone bathtub, frameless acoustic glass rain shower, and heated terrazzo flooring.",
+    highlights: ["Monolithic Travertine Stone Tub", "Frameless Acoustic Glass Rain Shower", "Heated Terrazzo Flooring", "Ambient Concealed Lighting"]
+  },
+  {
+    id: 6,
+    title: "Private Sommelier Wine Vault",
+    category: "Custom Cellar Design",
+    location: "Bordeaux, France",
+    area: "800 sq.ft",
+    year: "2024",
+    image: "/images/contemporary_minimalist_kitchen_1785357714785.png",
+    accentColor: "#C5A059",
+    description: "Climate-controlled mahogany and satin brass display racking with smoked mirror ceiling reflections.",
+    highlights: ["Climate-Controlled Precision HVAC", "Satin Brass Custom Wine Racks", "Smoked Mirror Ceiling Reflections", "Sommelier Tasting Island"]
+  }
+];
+
+export const HERO_SHOWCASE_CARDS = [
+  {
+    id: 1,
+    title: "Skyline Living",
+    tagline: "Penthouse Residence",
+    image: "/images/luxury_penthouse_living_room_1785357702933.png",
+    location: "Upper West Side, NYC",
+    area: "4,800 sq.ft",
+    category: "Residential Architecture",
+    description: "A sweeping multi-level luxury residence featuring full-height architectural glass, custom dark oak timber paneling, and curated Italian marble furniture.",
+    highlights: ["Custom Italian Marble Coffee Table", "Floor-to-Ceiling Panoramic Glass", "Integrated Gold Strip Cove Lighting", "Smart Spatial Zoning"],
+    tiltX: -6,
+    tiltY: 10,
+    depth: 30
+  },
+  {
+    id: 2,
+    title: "Nero Kitchen",
+    tagline: "Bespoke Culinary",
+    image: "/images/contemporary_minimalist_kitchen_1785357714785.png",
+    location: "Bel Air, California",
+    area: "1,200 sq.ft",
+    category: "Bespoke Culinary Space",
+    description: "High-contrast culinary artistry with a monolithic Nero Marquina marble waterfall island and brushed champagne brass hardware.",
+    highlights: ["Nero Marquina Waterfall Marble", "Brushed Champagne Gold Hardware", "Concealed Motorized Cabinetry", "Atmospheric LED Floating Glow"],
+    tiltX: 8,
+    tiltY: -12,
+    depth: 70
+  },
+  {
+    id: 3,
+    title: "Sovereign Suite",
+    tagline: "Master Bedroom",
+    image: "/images/luxury_master_suite_1785357725159.png",
+    location: "Mayfair, London",
+    area: "1,650 sq.ft",
+    category: "Luxury Bedroom",
+    description: "An oasis of quiet luxury with custom channel-upholstered velvet wall paneling, carved travertine stone, and bespoke silk drapery.",
+    highlights: ["Hand-Carved Travertine Accent Wall", "Bespoke Channel Velvet Headboard", "Integrated Concealed Sound System", "Custom Silk Linen Ensemble"],
+    tiltX: -10,
+    tiltY: -8,
+    depth: 50
+  },
+  {
+    id: 4,
+    title: "Grand Villa Atrium",
+    tagline: "Double Height Living",
+    image: "/images/finished_luxury_villa_1785357748931.png",
+    location: "Dubai Hills Estate",
+    area: "8,500 sq.ft",
+    category: "Grand Villa Fitout",
+    description: "Double-height architectural grand hall featuring a bespoke sculptural brass chandelier, dual marble fireplaces, and indoor vertical living walls.",
+    highlights: ["Double-Height Architectural Ceiling", "Dual Bookmatched Marble Fireplaces", "Sculptural Custom Brass Chandelier", "Biophilic Vertical Plant Wall"],
+    tiltX: 12,
+    tiltY: 8,
+    depth: 90
+  },
+  {
+    id: 5,
+    title: "Travertine Spa Bath",
+    tagline: "Bespoke Wellness",
+    image: "/images/luxury_master_suite_1785357725159.png",
+    location: "Zurich, Switzerland",
+    area: "950 sq.ft",
+    category: "Bespoke Spa Suite",
+    description: "Monolithic travertine stone bathtub, frameless acoustic glass rain shower, and heated terrazzo flooring.",
+    highlights: ["Monolithic Travertine Stone Tub", "Frameless Acoustic Glass Rain Shower", "Heated Terrazzo Flooring", "Ambient Concealed Lighting"],
+    tiltX: -8,
+    tiltY: 10,
+    depth: 40
+  },
+  {
+    id: 6,
+    title: "Private Sommelier Cellar",
+    tagline: "Custom Vault",
+    image: "/images/contemporary_minimalist_kitchen_1785357714785.png",
+    location: "Bordeaux, France",
+    area: "800 sq.ft",
+    category: "Custom Cellar Design",
+    description: "Climate-controlled mahogany and satin brass display racking with smoked mirror ceiling reflections.",
+    highlights: ["Climate-Controlled Precision HVAC", "Satin Brass Custom Wine Racks", "Smoked Mirror Ceiling Reflections", "Sommelier Tasting Island"],
+    tiltX: 6,
+    tiltY: -10,
+    depth: 60
+  },
+  {
+    id: 7,
+    title: "Bel Air Sun Lounge",
+    tagline: "Architectural Terrace",
+    image: "/images/finished_luxury_villa_1785357748931.png",
+    location: "Beverly Hills, CA",
+    area: "2,400 sq.ft",
+    category: "Outdoor Living",
+    description: "Indoor-outdoor seamless glass pivot doors with integrated perimeter fire feature and teak poolside cabana.",
+    highlights: ["Motorized Glass Pivot Doors", "Perimeter Linear Fire Feature", "Teak & Travertine Cabana", "Infinity Edge Water Pool Integration"],
+    tiltX: -10,
+    tiltY: 6,
+    depth: 80
+  },
+  {
+    id: 8,
+    title: "Penthouse Library Lounge",
+    tagline: "Bespoke Millwork",
+    image: "/images/luxury_penthouse_living_room_1785357702933.png",
+    location: "Tribeca, NYC",
+    area: "1,400 sq.ft",
+    category: "Millwork & Lounge",
+    description: "Double-story smoked oak bookcases with integrated brass ladder and velvet reading alcove.",
+    highlights: ["Double-Story Smoked Oak Bookshelf", "Satin Brass Rolling Access Ladder", "Integrated Velvet Reading Nook", "Concealed LED Shelf Washers"],
+    tiltX: 8,
+    tiltY: -6,
+    depth: 50
+  },
+  {
+    id: 9,
+    title: "Minimalist Loft Living",
+    tagline: "Open Plan Residence",
+    image: "/images/luxury_penthouse_living_room_1785357702933.png",
+    location: "SoHo, NYC",
+    area: "3,200 sq.ft",
+    category: "Residential Architecture",
+    description: "Exposed brick masonry paired with polished concrete floors and minimalist Italian leather seating.",
+    highlights: ["Exposed Brick Masonry", "Polished Concrete Flooring", "Curated Italian Leather Seating", "Custom Steel Beam Portal"],
+    tiltX: -7,
+    tiltY: 9,
+    depth: 45
+  },
+  {
+    id: 10,
+    title: "Executive Study & Library",
+    tagline: "Private Sanctuary",
+    image: "/images/luxury_master_suite_1785357725159.png",
+    location: "Kensington, London",
+    area: "1,100 sq.ft",
+    category: "Executive Interior",
+    description: "Acoustic fabric wall panels with walnut desk millwork and integrated warm LED accent washers.",
+    highlights: ["Acoustic Fabric Wall Panels", "Walnut Executive Desk", "Warm LED Accent Washers", "Integrated Hidden Vault"],
+    tiltX: 7,
+    tiltY: -9,
+    depth: 65
+  },
+  {
+    id: 11,
+    title: "Champagne Bar Pavilion",
+    tagline: "Hospitality & Lounge",
+    image: "/images/contemporary_minimalist_kitchen_1785357714785.png",
+    location: "Monaco, Monte Carlo",
+    area: "1,800 sq.ft",
+    category: "Luxury Hospitality",
+    description: "Backlit Calacatta marble bar counter with satin champagne brass footrests and velvet cocktail booths.",
+    highlights: ["Backlit Calacatta Marble Bar", "Satin Brass Footrests", "Custom Velvet Cocktail Booths", "Acoustic Ceiling Diffusers"],
+    tiltX: -9,
+    tiltY: 8,
+    depth: 55
+  },
+  {
+    id: 12,
+    title: "Skylight Dining Hall",
+    tagline: "Architectural Dining",
+    image: "/images/finished_luxury_villa_1785357748931.png",
+    location: "Geneva, Switzerland",
+    area: "2,100 sq.ft",
+    category: "Grand Residential",
+    description: "Glass structural skylight roof framing an 18-seat smoked oak dining table with integrated linear chandelier.",
+    highlights: ["Structural Skylight Framing", "18-Seat Smoked Oak Table", "Custom Linear Brass Chandelier", "Bookmatched Travertine Credenza"],
+    tiltX: 9,
+    tiltY: -7,
+    depth: 75
+  }
+];
+
+export const MATERIAL_PALETTES = [
+  {
+    id: 'm1',
+    name: "Calacatta Gold Marble",
+    category: "Natural Stone",
+    previewColor: "linear-gradient(135deg, #EAE6DF 0%, #D4AF37 50%, #C4BBAF 100%)",
+    textureImage: "/images/contemporary_minimalist_kitchen_1785357714785.png",
+    description: "Rare Italian white marble with warm golden and honey-hued veining."
+  },
+  {
+    id: 'm2',
+    name: "Brushed Champagne Brass",
+    category: "Metals & Trim",
+    previewColor: "linear-gradient(135deg, #D4AF37 0%, #F5E5AD 40%, #AA771C 100%)",
+    textureImage: "/images/finished_luxury_villa_1785357748931.png",
+    description: "Satin-brushed architectural metal providing understated warm golden reflections."
+  },
+  {
+    id: 'm3',
+    name: "Smoked Espresso Oak",
+    category: "Architectural Wood",
+    previewColor: "linear-gradient(135deg, #2A211B 0%, #1A1410 60%, #0F0B08 100%)",
+    textureImage: "/images/luxury_penthouse_living_room_1785357702933.png",
+    description: "Deep, rich quartersawn oak millwork with natural tactile grain details."
+  },
+  {
+    id: 'm4',
+    name: "Travertine & Cashmere Velvet",
+    category: "Soft Furnishings & Wall",
+    previewColor: "linear-gradient(135deg, #D9D2C9 0%, #B8AD9E 60%, #8C8072 100%)",
+    textureImage: "/images/luxury_master_suite_1785357725159.png",
+    description: "Tactile acoustic fabric paired with unpolished ivory travertine."
+  }
+];

@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'Space Grotesk', monospace;
+  }
+
+  html, body {
+    font-family: var(--font-sans);
+    background-color: #FAF8F5;
+    color: #18181B;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.03em;
+  }
+}
+
+/* Subtle Modern Champagne Accents for Light Theme */
+.champagne-text {
+  color: #C5A059;
+}
+
+.champagne-border {
+  border-color: rgba(197, 160, 89, 0.3);
+}
+
+.champagne-border-hover:hover {
+  border-color: rgba(197, 160, 89, 0.7);
+}
+
+.champagne-button {
+  background-color: #18181B;
+  color: #FAF8F5;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.champagne-button:hover {
+  background-color: #C5A059;
+  color: #18181B;
+  box-shadow: 0 10px 25px rgba(197, 160, 89, 0.25);
+}
+
+/* Minimalist Light Card Styling */
+.glass-card {
+  background: #FFFFFF;
+  border: 1px solid #E6E2DA;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.glass-card-hover:hover {
+  background: #FFFFFF;
+  border-color: #C5A059;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
+}
+
+/* 3D Perspective Wall Mechanics (Light Theme) */
+.perspective-container {
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.hero-3d-wall {
+  transform: rotateX(10deg) rotateY(-6deg) scale(0.96);
+  transition: transform 0.4s ease-out;
+}
+
+@media (max-width: 768px) {
+  .hero-3d-wall {
+    transform: rotateX(0deg) rotateY(0deg) scale(1) !important;
+  }
+}
+
+.hero-card-3d {
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform-style: preserve-3d;
+}
+
+.hero-card-3d:hover {
+  transform: translateZ(30px) scale(1.03) rotateX(0deg) rotateY(0deg) !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+  z-index: 40;
+}
+
+/* Custom Scrollbar for Light Theme */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4CEC3;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
