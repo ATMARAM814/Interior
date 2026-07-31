@@ -11,9 +11,9 @@ export default function AboutPage({ onOpenContact }) {
 
   const leadership = [
     {
-      name: "Akruti V. Sharma",
+      name: "John Doe",
       role: "Founder & Lead Architectural Director",
-      bio: "Trained in Milan and London, Akruti brings 15+ years of experience in high-end spatial planning, luxury penthouse fitouts, and sculptural material curation.",
+      bio: "Trained in Milan and London, John brings 15+ years of experience in high-end spatial planning, luxury penthouse fitouts, and sculptural material curation.",
       image: "/images/luxury_master_suite_1785357725159.png"
     },
     {
@@ -47,7 +47,7 @@ export default function AboutPage({ onOpenContact }) {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-[#52525B] font-normal leading-relaxed">
-            ATELIER V (Akruti Creation Studio) is an award-winning interior architecture firm dedicated to creating residences that feel like private sanctuaries. We harmonize raw volumetric space, rare natural stone, and bespoke artisan millwork.
+            ATELIER V Studio is an award-winning interior architecture firm dedicated to creating residences that feel like private sanctuaries. We harmonize raw volumetric space, rare natural stone, and bespoke artisan millwork.
           </p>
         </div>
 
@@ -155,7 +155,7 @@ export default function AboutPage({ onOpenContact }) {
           </div>
           <button 
             onClick={onOpenContact}
-            className="px-8 py-3.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#C5A059] text-[#18181B] hover:bg-white transition-colors shrink-0 flex items-center gap-2"
+            className="px-8 py-3.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#C5A059] text-[#18181B] hover:bg-white transition-colors shrink-0 flex items-center gap-2 cursor-pointer"
           >
             <span>Inquire For Private Briefing</span>
             <ArrowRight className="w-4 h-4" />
